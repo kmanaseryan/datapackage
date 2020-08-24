@@ -1,0 +1,30 @@
+{
+  "name": "datapackage",
+  "title": "Datapackage",
+  "resources": [
+    {
+      "path": "script.py",
+      "pathType": "local",
+      "name": "script",
+      "format": "py",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "Download-GDPcurrent-NCU-countries.xlsx",
+      "pathType": "local",
+      "name": "download-gdpcurrent-ncu-countries",
+      "format": "xlsx",
+      "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "encoding": "windows-1252"
+    }
+  ],
+  "readme": "My first data package\n",
+  "description": "My first data package\n",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
